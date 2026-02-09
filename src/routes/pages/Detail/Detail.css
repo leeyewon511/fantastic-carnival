@@ -1,0 +1,104 @@
+.details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.info1{
+  display: flex;
+}
+
+.content1{
+  display:block;
+  padding: 10px;
+}
+
+.img4{
+  width: 500px;
+  height: 550px;
+  border-radius: 10%;
+}
+.profile{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-items: left;
+  padding: 13px;
+}
+
+.names, .area{
+  margin: 10px 0;
+  text-align: left;
+}
+
+.names{
+  font-weight: bold;
+}
+.area{
+  color: gray;
+  font-size: 13px;
+}
+
+.content2{
+  display: grid;
+  /* flex-direction: column; */
+  gap: 10px;   /*텍스트 줄 사이 간격*/
+  text-align: left;
+  padding-bottom: 15%;
+  margin-top: 0%;
+  width: 400px;
+}
+
+.title1{
+  font-weight: bold;
+  font-size: 23px;
+  margin: 0;
+}
+
+.meta-data{
+  display: flex;
+  color: gray;
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+
+.days1{
+  padding-left: 5px;
+}
+
+.category, .days1, .price{
+  margin: 0; 
+}
+
+.price{
+  padding: 0;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.contents{
+  gap: 100px;
+}
+
+.reactions{
+  font-size: 13px;
+  color: gray;
+}
+
+.heart, .read{
+  padding-left: 5px;
+}
+
+.goapp{
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #FF6600;
+  width:400px;
+  height: 40px;
+  line-height: 40px; /*줄 높이*/
+  text-align: center;
+  border-radius: 10px;
+}

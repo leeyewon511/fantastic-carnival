@@ -1,11 +1,17 @@
 .Box{
-  display: flex;
-  justify-content: center; /*가로축-중심축*/
-  align-items: center; /*세로축-교차축*/
-  min-height: 100vh;   /*컨테이너가 같이 늘어나게 됨*/
+  display: grid;
+  /* justify-content: center; 가로축-중심축 */
+  /* align-items: center; 세로축-교차축 */
+  /*min-height: 100vh;   컨테이너가 같이 늘어나게 됨*/
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /*grid셀 사이의 간격*/
+  max-width: 800px;
+  margin: 0 auto; /*박스 가운데 정렬*/
+  margin-top: 90px;
+
 }
 
-.Box1, .Box2, .Box3{
+.Box1, .Box3{
   display: flex;
   flex-direction:column;
   /*border: 1px solid gray;*/
@@ -14,7 +20,7 @@
 
 }
 
-.img1, .img2, .img3{
+.img1, .img3{
   margin: auto;
   width: 180px;
   height: 190px;
@@ -28,11 +34,10 @@
   margin-bottom: 5px;
 }
 
-.price {
-  
+.price1 {
   text-align: left;
   font-weight: bold;
-  padding-left: 10px; /*??????????????*/
+  padding-left: 10px; 
   margin: 3px 0 3px 0;
 }
 
@@ -49,102 +54,4 @@
   padding-left: 10px;
 }
 
-.details{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
 
-.info1{
-  display: flex;
-}
-
-.content1{
-  display:block;
-  padding: 10px;
-}
-
-.img4{
-  width: 500px;
-  height: 550px;
-  border-radius: 10%;
-}
-.profile{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  align-items: left;
-  padding: 13px;
-}
-
-.names, .area{
-  margin: 10px 0;
-  text-align: left;
-}
-
-.names{
-  font-weight: bold;
-}
-.area{
-  color: gray;
-  font-size: 13px;
-}
-
-.content2{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;   /*텍스트 줄 사이 간격*/
-  text-align: left;
-  padding-bottom: 25%;
-  margin-top: 0%;
- 
-}
-
-.title1{
-  font-weight: bold;
-  font-size: 23px;
-  margin: 0;
-}
-
-.meta-data{
-  display: flex;
-  color: gray;
-  font-size: 15px;
-  margin: 0;
-}
-
-.days1{
-  padding-left: 5px;
-}
-
-.category, .days1, .price{
-  margin: 0; 
-}
-
-.price{
-  padding-left: 0;
-  font-size: 20px;
-  
-}
-
-.contents{
-  gap: 100px;
-}
-
-.reactions{
-  font-size: 15px;
-  color: gray;
-}
-
-.heart, .read{
-  padding-left: 5px;
-}
-
-.goapp{
-  background-color: #FF6600;
-  padding: 0 16px ;
-  width:100%;
-  text-align: center;
- 
-}

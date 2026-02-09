@@ -1,0 +1,37 @@
+.nav-container{
+  position: fixed; /*화면 고정*/
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding: 5px 400px;
+  background-color: white;
+  
+}
+
+.menu {
+  display: flex;
+  gap: 18px;
+  margin: 0 auto;
+  font-size: 17px;
+  /* font-weight: bold; */
+}
+
+.carrotlogo{
+  width: 65px;
+  height: 35px;
+  justify-content: left;
+}
+
+.appDownload{
+  background-color: #FF6600;
+  height: 30px;
+  color: white;
+  border: 0;
+  border-radius: 5%;
+  align-items: center;
+}
+
+
+
