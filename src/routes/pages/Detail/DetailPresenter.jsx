@@ -4,18 +4,22 @@ import "./Detail.css"
 const DetailPresenter = (props) => {
   const details = props.detailedPage[0];
   return(
+  <div className="Detail">
+    
+    <div className="category-path">홈 {">"} <a href="/">중고거래</a> {">"} 휩드 디스커버리 키트</div>
+    
     <div className="details">
       <div className="content1">
         <img src={details.imgs1} className="img4"/>
 
-       <div className="info1">
+      <div className="info1">
         <img src={details.profile} className="profile"/>
         <div className="info1_1">
         <p className="names">{details.names}</p>
         <p className="area">{details.area}</p>
         </div>
-       </div>
       </div>
+    </div>
 
       <div className="content2">
         <h1 className="title1">{details.title}</h1>
@@ -32,6 +36,7 @@ const DetailPresenter = (props) => {
         </div>
         <div className="goapp">{details.goapp}</div>
       </div>
+    </div>
     </div>
   )
 

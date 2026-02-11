@@ -1,8 +1,22 @@
+.Detail{
+  /* display: flex; */
+  /* padding-top: 100px; */
+  padding: 100px 400px;
+  margin-top: 30px;
+}
+
+.category-path{
+  text-align: left;
+  
+}
+
 .details{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  margin: 0 auto;
+  min-height: 75vh;
+  max-width: 1112px;
 }
 
 .info1{
@@ -11,14 +25,16 @@
 
 .content1{
   display:block;
-  padding: 10px;
+ 
 }
 
 .img4{
-  width: 500px;
-  height: 550px;
-  border-radius: 10%;
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
+  border: 1px solid #BDBDBD;
 }
+
 .profile{
   width: 50px;
   height: 50px;
@@ -45,9 +61,10 @@
   /* flex-direction: column; */
   gap: 10px;   /*텍스트 줄 사이 간격*/
   text-align: left;
-  padding-bottom: 15%;
+  padding-bottom: 25%;
   margin-top: 0%;
-  width: 400px;
+  margin: 0 0 100px 30px;
+  /* width: 5px; */
 }
 
 .title1{
@@ -96,9 +113,9 @@
   font-weight: bold;
   color: white;
   background-color: #FF6600;
-  width:400px;
+  width:480px;
   height: 40px;
   line-height: 40px; /*줄 높이*/
   text-align: center;
-  border-radius: 10px;
+  border-radius: 7px;
 }

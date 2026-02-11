@@ -28,7 +28,7 @@
   height: 20px;
 }
 
-.area{
+.area2{
   font-size: 12px;
 }
 .searchArea{
@@ -70,7 +70,7 @@
 
 .searchWord{
   border-width: 0;
-  width: 680px;
+  width: 850px;
   outline: none;
 }
 

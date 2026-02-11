@@ -6,7 +6,7 @@ const SearchPresenter=()=>{
   <div className="search">
     <div className="location">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqtvrOyU_Ox6EGDWfDFJ1sPXLrk-quSdyBig&s" alt="위치아이콘" className="locationIcon"/>
-    <div className="area">성남동</div>
+    <div className="area2">성남동</div>
     <img src="https://cdn-icons-png.flaticon.com/512/625/625946.png" alt="지역탐색" className="searchArea"/>
     </div>
 

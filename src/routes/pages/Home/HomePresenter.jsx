@@ -9,6 +9,13 @@ const box1 = props.product[0];
   
 
   return (
+    <div className="Home">
+
+    <div className="home-container">
+      <span className="category-path">홈 {">"} 중고거래</span>
+      <h2 className="location-info">부산광역시 해운대구 반여동</h2>
+    </div>
+
     <div className="Box">
       <a href="/Detail">
       <article className="Box1" >
@@ -16,7 +23,7 @@ const box1 = props.product[0];
         <p className="title">{box1.title}</p>
         <p className="price1">{box1.price}</p>
         <div className="info" >
-        <p className="area">{box1.area}</p>
+        <p className="area1">{box1.area}</p>
         <p className="days">{box1.days}</p> 
         </div>
       </article>
@@ -29,7 +36,7 @@ const box1 = props.product[0];
         <p className="title">{v.title}</p>
         <p className="price1">{v.price}</p>
         <div className="info">
-        <p className="area">{v.area}</p>
+        <p className="area1">{v.area}</p>
         <p className="days">{v.days}</p>
         </div>
       </article>
@@ -57,6 +64,7 @@ const box1 = props.product[0];
         </div>
       </article> */}
       
+    </div>
     </div>
 
   );
