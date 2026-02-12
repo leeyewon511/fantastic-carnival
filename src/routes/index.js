@@ -1,20 +1,21 @@
 import React from "react";
 import { createBrowserRouter, Route, Routes } from "react-router-dom";
 import MainLayout from "../components/layout/MainLayout";
-import { Home } from "./pages";
-import { Detail } from "./pages";
-import { Nav } from "./pages";
-import { Search } from "./pages";
+import Nav from "../components/layout/MainLayout/Nav/NavPresenter";
+import Search from "../components/layout/MainLayout/Search/SearchPresenter";
+import { Home, Detail, Group, Item } from "./pages";
 
 const Router = () => {
   return (
-    <>
-     <Nav />
+    <MainLayout>
+     
     <Routes>
       <Route path="/" element={<> <Search /> <Home /> </>} />
       <Route path="/Detail" element={<Detail />} />
+      <Route path="/Group" element={<Group />} />
+      <Route path="/Item" element={<Item />} />
     </Routes>
-    </>
+    </MainLayout>
   );
 };
 

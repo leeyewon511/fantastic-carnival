@@ -28,9 +28,8 @@ const HomeContainer = () => {
   area: "송정동",
   days: "1일전",
 },
-{
-  id: 3,
-  imgs: "https://i.pinimg.com/236x/3d/94/d5/3d94d5c8e1f5f5e5c8f5f5e5c8f5f5e5.jpg",
+ {id: 3,
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "아이폰 13 프로",
   price: "650,000",
   area: "역삼동",
@@ -38,7 +37,7 @@ const HomeContainer = () => {
 },
 {
   id: 4,
-  imgs: "https://i.pinimg.com/236x/a2/b3/c4/a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "나이키 에어맥스",
   price: "120,000",
   area: "삼성동",
@@ -46,7 +45,7 @@ const HomeContainer = () => {
 },
 {
   id: 5,
-  imgs: "https://i.pinimg.com/236x/f1/e2/d3/f1e2d3c4b5a6978869504132231405f6.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "무선 이어폰",
   price: "45,000",
   area: "강남구",
@@ -54,7 +53,7 @@ const HomeContainer = () => {
 },
 {
   id: 6,
-  imgs: "https://i.pinimg.com/236x/c7/d8/e9/c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "책상 스탠드",
   price: "35,000",
   area: "분당동",
@@ -62,7 +61,7 @@ const HomeContainer = () => {
 },
 {
   id: 7,
-  imgs: "https://i.pinimg.com/236x/9a/8b/7c/9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "가죽 백팩",
   price: "150,000",
   area: "서초동",
@@ -70,7 +69,7 @@ const HomeContainer = () => {
 },
 {
   id: 8,
-  imgs: "https://i.pinimg.com/236x/1f/2e/3d/1f2e3d4c5b6a798807960584032211f0.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "캠핑 의자",
   price: "28,000",
   area: "일원동",
@@ -78,7 +77,7 @@ const HomeContainer = () => {
 },
 {
   id: 9,
-  imgs: "https://i.pinimg.com/236x/5e/6f/7a/5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "플레이스테이션5",
   price: "480,000",
   area: "대치동",
@@ -86,7 +85,7 @@ const HomeContainer = () => {
 },
 {
   id: 10,
-  imgs: "https://i.pinimg.com/236x/b4/c5/d6/b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "전기포트",
   price: "25,000",
   area: "수서동",
@@ -94,7 +93,7 @@ const HomeContainer = () => {
 },
 {
   id: 11,
-  imgs: "https://i.pinimg.com/236x/2a/3b/4c/2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "겨울 패딩",
   price: "95,000",
   area: "청담동",
@@ -102,7 +101,7 @@ const HomeContainer = () => {
 },
 {
   id: 12,
-  imgs: "https://i.pinimg.com/236x/8d/9e/0f/8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "커피 머신",
   price: "210,000",
   area: "논현동",
@@ -110,7 +109,7 @@ const HomeContainer = () => {
 },
 {
   id: 13,
-  imgs: "https://i.pinimg.com/236x/6c/7d/8e/6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "운동화 컬렉션",
   price: "300,000",
   area: "압구정동",
@@ -118,7 +117,7 @@ const HomeContainer = () => {
 },
 {
   id: 14,
-  imgs: "https://i.pinimg.com/236x/4b/5c/6d/4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "아이패드 프로",
   price: "850,000",
   area: "도곡동",
@@ -126,7 +125,7 @@ const HomeContainer = () => {
 },
 {
   id: 15,
-  imgs: "https://i.pinimg.com/236x/0e/1f/2a/0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "식탁 세트",
   price: "180,000",
   area: "개포동",
@@ -134,7 +133,7 @@ const HomeContainer = () => {
 },
 {
   id: 16,
-  imgs: "https://i.pinimg.com/236x/7f/8a/9b/7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "에어프라이어",
   price: "68,000",
   area: "양재동",
@@ -142,7 +141,7 @@ const HomeContainer = () => {
 },
 {
   id: 17,
-  imgs: "https://i.pinimg.com/236x/3c/4d/5e/3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "골프채 세트",
   price: "520,000",
   area: "방배동",
@@ -150,7 +149,7 @@ const HomeContainer = () => {
 },
 {
   id: 18,
-  imgs: "https://i.pinimg.com/236x/9b/0c/1d/9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "로봇청소기",
   price: "340,000",
   area: "반포동",
@@ -158,7 +157,7 @@ const HomeContainer = () => {
 },
 {
   id: 19,
-  imgs: "https://i.pinimg.com/236x/5a/6b/7c/5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "캐논 카메라",
   price: "720,000",
   area: "신사동",
@@ -166,7 +165,7 @@ const HomeContainer = () => {
 },
 {
   id: 20,
-  imgs: "https://i.pinimg.com/236x/1e/2f/3a/1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "블루투스 스피커",
   price: "55,000",
   area: "삼전동",
@@ -174,7 +173,7 @@ const HomeContainer = () => {
 },
 {
   id: 21,
-  imgs: "https://i.pinimg.com/236x/d4/e5/f6/d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "자전거 MTB",
   price: "280,000",
   area: "개포동",
@@ -182,7 +181,7 @@ const HomeContainer = () => {
 },
 {
   id: 22,
-  imgs: "https://i.pinimg.com/236x/a0/b1/c2/a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "선풍기",
   price: "42,000",
   area: "수내동",
@@ -190,7 +189,7 @@ const HomeContainer = () => {
 },
 {
   id: 23,
-  imgs: "https://i.pinimg.com/236x/6e/7f/8a/6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "명품 지갑",
   price: "380,000",
   area: "정자동",
@@ -198,7 +197,7 @@ const HomeContainer = () => {
 },
 {
   id: 24,
-  imgs: "https://i.pinimg.com/236x/2c/3d/4e/2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "게이밍 키보드",
   price: "135,000",
   area: "서현동",
@@ -206,7 +205,7 @@ const HomeContainer = () => {
 },
 {
   id: 25,
-  imgs: "https://i.pinimg.com/236x/8b/9c/0d/8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "스마트워치",
   price: "195,000",
   area: "야탑동",
@@ -214,7 +213,7 @@ const HomeContainer = () => {
 },
 {
   id: 26,
-  imgs: "https://i.pinimg.com/236x/f5/a6/b7/f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "전자렌지",
   price: "88,000",
   area: "이매동",
@@ -222,7 +221,7 @@ const HomeContainer = () => {
 },
 {
   id: 27,
-  imgs: "https://i.pinimg.com/236x/4a/5b/6c/4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "노트북 거치대",
   price: "32,000",
   area: "판교동",
@@ -230,7 +229,7 @@ const HomeContainer = () => {
 },
 {
   id: 28,
-  imgs: "https://i.pinimg.com/236x/0d/1e/2f/0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "캠핑 테이블",
   price: "75,000",
   area: "백현동",
@@ -238,7 +237,7 @@ const HomeContainer = () => {
 },
 {
   id: 29,
-  imgs: "https://i.pinimg.com/236x/c9/d0/e1/c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4.jpg",
+  imgs: "https://i.pinimg.com/236x/e6/86/1e/e6861e0a7be7c41a968054cc1b8d32fa.jpg",
   title: "헬스 아령 세트",
   price: "110,000",
   area: "금곡동",

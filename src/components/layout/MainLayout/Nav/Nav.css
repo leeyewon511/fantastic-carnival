@@ -18,11 +18,17 @@
   /* font-weight: bold; */
 }
 
+.groupButton{
+  margin: 17px 0;
+}
+
 .carrotlogo{
   width: 65px;
   height: 35px;
   justify-content: left;
 }
+
+
 
 .appDownload{
   background-color: #FF6600;

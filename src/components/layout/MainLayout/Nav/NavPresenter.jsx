@@ -1,7 +1,9 @@
 import React from "react";
 import "./Nav.css"
+import { Group } from "lucide-react";
 
 const NavPresenter = () => {
+  
   return (
 <div>
    <div className="nav-container">
@@ -13,9 +15,11 @@ const NavPresenter = () => {
       <p>알바/과외/레슨</p>
       <p>동네업체</p>
       <p>동네생활</p>
-      <p>모임</p>
+      <a href="/Group" className="groupButton">모임</a>
       </div>
+   
       <button className="appDownload">앱 다운로드</button>
+      
   </div>
 </div>
       
