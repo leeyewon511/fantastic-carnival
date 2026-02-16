@@ -3,6 +3,7 @@ import DetailPresenter from "./DetailPresenter";
 
 
 const DetailContainer = () =>{
+
     const [page, setPage]=useState([{
       imgs1: "https://img.kr.gcp-karroter.net/origin/article/202511/e04184f806ae9ef169f0d15ebe70e7457026ce260e628bb3c632531f243f4b79_0.webp?f=webp&q=95&s=720x720&t=inside",
       profile: "https://news.samsungdisplay.com/wp-content/uploads/2018/08/8.jpg",

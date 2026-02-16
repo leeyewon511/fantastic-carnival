@@ -1,3 +1,70 @@
-.pages{
+.groupPages{
+  display: grid;
+  grid-template-columns: repeat(1);
+  row-gap: 25px;
+  max-width: 1097px;
+  margin: 0 auto; 
   margin-top: 100px;
+}
+
+.groupPage{
+  display: flex;
+  justify-content: center;
+  /* width: 800px; */
+  gap: 20px;
+}
+
+.groupImg{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid #BDBDBD;
+}
+
+.post{
+  text-align: left;
+  padding-top: 4px;
+}
+
+.groupTitle{
+  font-size: 18px;
+  font-weight: bold;
+  color: #2A3038;
+}
+
+.groupContent{
+  font-size: 14px;
+  color: #555D6D;
+  margin-top: 3px;
+  width: 975px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meta{
+  display: flex;
+  font-size: 14px;
+  color: #aaaaaa;
+  margin-top: 15px;
+  gap: 4px;
+}
+
+.groupArea{
+  display: flex;
+  gap: 2px;
+}
+
+.areaIcon{
+  padding-top: 1px;
+}
+
+.groupinfo{
+  display: flex;
+  gap: 3px;
+}
+
+.infoIcon{
+  padding-top: 3px;
 }
