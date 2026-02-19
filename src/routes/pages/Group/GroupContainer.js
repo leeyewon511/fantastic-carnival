@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import GroupPresenter from "./GroupPresenter";
 
 
-const GroupContainer=()=>{
+const GroupContainer = () => {
   const [localMeet,setLocalMeet]=useState([
   {
     id: 0,

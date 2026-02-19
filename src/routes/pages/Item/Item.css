@@ -1,3 +1,344 @@
-.Itemmain{
+.Item-category{
+  text-align: left;
+  max-width: 1112px;
+  margin: 0 auto;
+  width: 100%;
   margin-top: 100px;
+  padding: 16px 0 32px;
+  color: #808080;
+  font-size: 14px;
 }
+
+.item-page{
+  display: flex;
+  padding: 0 400px;
+  gap: 30px;
+}
+
+.item-Main{
+  /* padding:0 400px; */
+  width: 300px;
+  
+}
+
+.item-details-header{
+  display: flex;
+  gap: 13px;
+}
+
+.itemImg{
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  border: 1px solid #BDBDBD;
+}
+
+.itemTitle{
+  display: block;
+  max-width: 236px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2A3038;
+}
+
+.item-details-meta{
+  font-size: 14px;
+  color: #868B94;
+  text-align: left;
+}
+
+.itemContent{
+  font-size: 15px;
+  white-space: pre-wrap;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.item-category{
+  margin: 20px 0 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 14px;
+  color: #555D6D;
+  gap: 10px;
+}
+
+.itemArea, .itemFriend, .itemAge{
+  background-color: #F3F4F5;
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+.itemArea{
+  width: 130px;
+}
+.itemFriend{
+  width: 65px;
+}
+.itemAge{
+  width: 65px;
+}
+
+.item-goapp{
+  background-color: #FF6600;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 93px 5px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.item-album{
+  margin-bottom: 30px;
+
+}
+
+.album-header{
+  display: flex;
+  margin: 0 0 20px;
+  align-items: center;
+}
+
+.albumTitle{
+  margin: 0;
+  text-align: left;
+  justify-content: space-between;
+  color: #2A3038;
+  font-size: 20px;
+}
+
+.albumMore{
+  margin: 0;
+  margin-left: auto;
+  color: #555D6D;
+  font-size: 15px;
+  border: 0;
+  background-color: transparent;
+}
+
+.albumImg{
+  display: flex;
+  gap: 5px;
+}
+
+.albumImg-img{
+  width: 185px;
+  border: 1px solid #BDBDBD;
+  border-radius: 20px;
+}
+
+.item-member{
+  margin-bottom: 30px;
+}
+
+.member-header{
+  display: flex;
+  margin: 0 0 20px;
+  align-items: center;
+}
+
+.memberMore{
+  margin-left: auto;
+  color: #555D6D;
+  border: 0;
+  background-color: transparent; /*투명한 배경*/
+}
+
+.memberTitle{
+  font-size: 20px;
+  text-align: left;
+  color: #2A3038;
+  margin: 0;
+}
+
+.member-post{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px 40px;
+}
+
+.memberPost{
+  display: flex;
+  gap: 10px;
+}
+
+.member-profile-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.member-info{
+  display: flex;
+  gap: 10px;
+}
+
+.member-details{
+  font-size: 16px;
+}
+
+.memberNickname{
+  color: #2A3038;
+}
+.memberLocation{
+  color: #868B94;
+}
+.member-description{
+  color: #868B94;
+  text-align: left;
+  font-size: 15px;
+  padding-top: 2px;
+}
+
+.item-schedule{
+  margin-bottom: 30px;
+}
+
+.schedule-header{
+  display: flex;
+  margin: 0 0 20px;
+  align-items: center;
+}
+
+.scheduleTitle{
+  font-size: 20px;
+  text-align: left;
+  color: #2A3038;
+  margin: 0;
+}
+
+.scheduleMore{
+  margin-left: auto;
+  color: #555D6D;
+  border: 0;
+  background-color: transparent;
+}
+
+.schedule-content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:10px 40px;
+}
+
+.schedule-post{
+  display: flex;
+  gap: 10px;
+}
+
+.schedule-date{
+  background-color: #F3F4F5;
+  width: 35px;
+  height: 50px;
+  color: #555D6D;
+  
+}
+.scheduleMonth{
+  font-size: 12px;
+}
+.scheduleDay{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.schedule-info{
+  text-align: left;
+}
+.scheduleTitle1, .scheduleTitle2, .scheduleTitle3, .scheduleTitle5{
+  color: #2A3038;
+  font-size: 16px;
+  padding: 0 0 4px;
+  font-weight: bold;
+}
+.scheduleTitle4{
+  color: #868B94;
+  font-size: 16px;
+}
+.scheduleStatus1,.scheduleStatus2,.scheduleStatus3,.scheduleStatus4,.scheduleStatus5{
+  font-size: 14px;
+  padding: 0 0 8px;
+}
+
+.scheduleStatus1{
+  color: #D4AB28;
+}
+.scheduleStatus2, .scheduleStatus3{
+  color: #E14D00;
+}
+.scheduleStatus4, .scheduleStatus5{
+  color: #868B94;
+}
+
+.schedule-meta{
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  color: #555D6D;
+}
+
+.scheduleImg{
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  border-radius: 5px;
+} 
+
+/* .scheduleTitle{
+  font-size: 20px;
+  text-align: left;
+  color: #2A3038;
+  margin: 0;
+}
+
+.schedule-post{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px 40px;
+}
+
+.schedule-content{
+  display: flex;
+  gap: 10px
+}
+
+.schdule-date{
+  display: block;
+  background-color: #535557;
+  color: #555D6D;
+  border-radius: 5px;
+  padding: 0 4px;
+  width: 30px;
+  height: 50px;
+}
+
+.scheduleMonth{
+  font-size: 12px;
+}
+.scheduleDay{
+  font-size: 16px;
+}
+
+.scheduleTitle{
+  font-size: 16px;
+  color: #2A3038;
+  padding: 0 0 4px;
+}
+
+.scheduleStatus{
+  padding: 0 0 8px;
+  text-align: left;
+  color: #D4AB28;
+}
+
+
+
+.scheduleImg{
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+} */

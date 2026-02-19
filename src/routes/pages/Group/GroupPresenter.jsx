@@ -8,8 +8,13 @@ const GroupPresenter=(props)=>{
 
  return(
   <div className="groupPages">
+    <div className="group-container">
+      <span className="category-path"><a href="/">홈</a> {">"} 모임</span>
+      <h2 className="location-info">부산광역시 기장군 정관읍 모임</h2>
+    </div>
   {groupPage.map((g)=>{
   return(
+    <a href="/Item">
     <div className="groupPage">
       <img src={g.groupImg} alt={g.groupTitle} className="groupImg"/>
 
@@ -30,6 +35,7 @@ const GroupPresenter=(props)=>{
 
       </div>
     </div>
+    </a>
   )
   })}
   </div>
